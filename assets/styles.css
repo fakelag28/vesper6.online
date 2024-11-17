@@ -1,0 +1,27 @@
+body {
+            background-color: #123461;
+            color: white;
+        }
+        .navbar {
+            z-index: 1000;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+        }
+        .navbar, .card {
+            background-color: #0a1c36 !important;
+        }
+        .btn-primary {
+            background-color: #F6D8AE;
+            border-color: #F6D8AE;
+            color: #123461;
+        }
+        .btn-primary:hover {
+            background-color: #f0c78d;
+            border-color: #f0c78d;
+            color: #123461;
+        }
+        .navbar-brand img {
+            height: 40px; /* Настройте высоту логотипа по вашему усмотрению */
+            width: auto;
+        }
